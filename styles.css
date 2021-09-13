@@ -3,7 +3,7 @@
 html {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 24px;
-  background-color: rgb(220, 220, 220);
+  background-color: white;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
   margin: 0 10px;
 }
 
-.navbar h1 {
-  letter-spacing: 5px;
+h1 {
+  letter-spacing: 10px;
   text-align: center;
 }
 
@@ -30,7 +30,28 @@ body {
   align-self: center;
 }
 
-.navbar a {
+a {
   color: black;
-  text-decoration: none;
 }
+
+/* SECTIONS */
+
+.mission {
+  background-image: url('./images/building.jpeg');
+  background-blend-mode: hard-light;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.content h2 {
+  letter-spacing: 10px;
+  background-color: white;
+  margin-bottom: 0;
+
+}
+
+.content h4 {
+  background-color: white;
+  margin-top: 0;
+}
+
